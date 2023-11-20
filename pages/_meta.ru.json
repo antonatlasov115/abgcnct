@@ -1,0 +1,22 @@
+{
+  "index": {
+    "title": "Введение",
+    "type": "page",
+    "display": "hidden"
+  },
+  "docs": {
+    "title": "история",
+    "type": "page"
+  },
+  "examples": {
+    "title": "пред",
+    "type": "page"
+  },
+  "blog": {
+    "title": "туризм",
+    "type": "page",
+    "theme": {
+      "sidebar": false
+    }
+  }
+}

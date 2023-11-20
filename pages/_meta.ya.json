@@ -1,0 +1,22 @@
+{
+  "index": {
+    "title": "са5аланыы",
+    "type": "page",
+    "display": "hidden"
+  },
+  "docs": {
+    "title": "осторуйа",
+    "type": "page"
+  },
+  "examples": {
+    "title": "тэрилтэлэр",
+    "type": "page"
+  },
+  "blog": {
+    "title": "туризм",
+    "type": "page",
+    "theme": {
+      "sidebar": false
+    }
+  }
+}
