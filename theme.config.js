@@ -147,7 +147,7 @@ const themeConfig = {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span>Powered by</span>
+            <span>📓Powered by</span>
             <svg height={20} viewBox="0 0 377 46" fill="none">
               <path d="M89.2695 31.576H81.7175L80.5975 35H73.1415L81.4295 
     12.344H89.6215L97.8775 35H90.3895L89.2695 31.576ZM87.5415
@@ -162,7 +162,7 @@ const themeConfig = {
           </a>
         </div>
         <p className="mt-6 text-xs">
-          © {new Date().getFullYear()} AbagaConnect DEV.
+          © {new Date().getFullYear()} 🔰React-dev Atlasov Anton 📱89963178892 
         </p>
       </div>
     )

@@ -1,5 +1,5 @@
 {
-  "name": "swr-site",
+  "name": "abaga-connect",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start": "next start",
     "build": "next build"
   },
-  "author": "Shu Ding",
+  "author": "anton atlasov",
   "license": "Apache-2.0",
   "dependencies": {
     "@vercel/analytics": "^0.1.11",
