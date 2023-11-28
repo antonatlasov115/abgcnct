@@ -1,6 +1,6 @@
 /**
  * @typedef {"en-US"} DefaultLocale
- * @typedef {DefaultLocale | "zh-CN" | "es-ES" | "fr-FR" | "pt-BR" | "ja" | "ko" | "ru"} Locale
+ * @typedef {DefaultLocale | "en-US" | "ya" | "ru"} Locale
  */
 
 /** @type {Readonly<Record<Locale, {defaultCacheProvider?: string;firstCacheProvider?: string;boxFirstCacheProvider?:string;secondCacheProvider?: string;boxSecondCacheProvider?: string;leftSWRHooks?: string;rightSWRHooks?: string;}>>} */

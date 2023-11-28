@@ -10,7 +10,7 @@ const withNextra = require("nextra")({
 
 module.exports = withNextra({
   i18n: {
-    locales: ["en-US", "ya" , "ru"],
+    locales: ["en-US", "ru" , "ya"],
     defaultLocale: "ru",
   },
   redirects: () => {

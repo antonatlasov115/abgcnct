@@ -1,6 +1,6 @@
 /**
- * @typedef {"en-US"} DefaultLocale
- * @typedef {DefaultLocale | "zh-CN" | "es-ES" | "fr-FR" | "pt-BR" | "ja" | "ko" | "ru"} Locale
+ * @typedef {"ya"} DefaultLocale
+ * @typedef {DefaultLocale | "en-US" | "ya" | "ru"} Locale
  */
 
 /** @type {Readonly<Record<Locale, string>>} */
@@ -18,7 +18,7 @@ export const titleMap = {
   "pt-BR": "React Hooks para Data Fetching",
   "zh-CN": "用于数据请求的 React Hooks 库",
   ja: "データ取得のための React Hooks ライブラリ",
-  ko: "데이터 가져오기를 위한 React Hooks",
+  ya: "데이터 가져오기를 위한 React Hooks",
   ru: "React хуки для выборки данных",
 };
 
@@ -34,7 +34,7 @@ export const featuresMap = {
     typescript: "TypeScript Ready",
     remoteLocal: "Remote + Local",
   },
-  "fr-FR": {
+  "ya": {
     lightweight: "Léger",
     realtime: "Temps réel",
     backendAgnostic: "Indépendant du Backend",
@@ -65,7 +65,7 @@ export const featuresMap = {
 export const headDescriptionMap = {
   "en-US": "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again.",
   "fr-FR": "SWR est une libraire de React Hooks pour récupérer des données. SWR retourne d'abord les données en cache (stale), puis envoie la requête (revalidate), et enfin retourne les données à jour.",
-  "pt-BR": "SWR é uma biblioteca React Hooks para data fetching. SWR primeiro retorna os dados do cache (stale), então envia a requisição de busca (revalidate), e finalmente vem com os dados atualizados novamente.",
+  "ya": "SWR é uma biblioteca React Hooks para data fetching. SWR primeiro retorna os dados do cache (stale), então envia a requisição de busca (revalidate), e finalmente vem com os dados atualizados novamente.",
   ru: "SWR — это библиотека React хуков для получения данных. SWR сначала возвращает данные из кеша (устаревшие), затем отправляет запрос на выборку (ревалидация) и, наконец, снова получает актуальные данные.",
 };
 
@@ -76,7 +76,7 @@ export const feedbackLinkMap = {
   "fr-FR": "Question? Donnez-nous votre avis →",
   "pt-BR": "Dúvidas? Nos dê feedback →",
   "zh-CN": "有疑问？给我们反馈 →",
-  ko: "질문이 있으신가요? 피드백을 남겨주세요 →",
+  ya: "질문이 있으신가요? 피드백을 남겨주세요 →",
   ru: "Вопросы? Оставьте нам отзыв →",
 };
 
@@ -88,7 +88,7 @@ export const editTextMap = {
   "pt-BR": "Edite essa página no GitHub →",
   "zh-CN": "在 GitHub 上编辑本页 →",
   ja: "Github で編集する →",
-  ko: "Github에서 이 페이지 편집하기 →",
+  ya: "Github에서 이 페이지 편집하기 →",
   ru: "Редактировать эту страницу на GitHub →",
 };
 
@@ -100,7 +100,7 @@ export const footerTextMap = {
   "pt-BR": { utmSource: "swr_pt-br", text: "Desenvolvido por" },
   "zh-CN": { utmSource: "swr_zh-cn", text: "由", suffix: "驱动" },
   ja: { utmSource: "swr_ja", text: "提供" },
-  ko: { utmSource: "swr_ko", text: "Powered by" },
+  ya: { utmSource: "swr_ko", text: "Powered by" },
   ru: { utmSource: "swr_ru", text: "Работает на" },
 };
 
@@ -109,7 +109,7 @@ export const tableOfContentsTitleMap = {
   "en-US": "On This Page",
   "es-ES": "En esta página",
   "fr-FR": "Sur cette page",
-  "pt-BR": "Nessa página",
+  "ya": "Nessa página",
   ru: "На этой странице",
 };
 
@@ -123,6 +123,6 @@ export const searchPlaceholderMap = {
 /** @type {Readonly<Record<Locale, string>>} */
 export const gitTimestampMap = {
   "en-US": "Last updated on",
-  "fr-FR": "Dernière mise à jour le",
+  "ya": "Dernière mise à jour le",
   ru: "Последнее обновление",
 };
