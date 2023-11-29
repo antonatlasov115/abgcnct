@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 
 /**
- * @typedef {"en-US"} DefaultLocale
- * @typedef {DefaultLocale | "es-ES" | "ya" | "ru"} Locale
+ * @typedef {"ya"} DefaultLocale
+ * @typedef {DefaultLocale | "en-US" | "ya" | "ru"} Locale
  * @typedef {{locale?: Locale | undefined; locales?: Locale[] | undefined; defaultLocale?: DefaultLocale | undefined}} TypedRouter
  * @typedef {Omit<import('next/router').NextRouter, "locale" | "locales" | "defaultLocale"> & TypedRouter} NextRouter
  * @template T
